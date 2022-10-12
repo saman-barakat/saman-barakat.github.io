@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Bighetti 吳恩達
+title: Saman A. Barakat
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Bighetti
+first_name: Saman
+last_name: Barakat
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,8 +14,8 @@ role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Seville
+    url: https://www.us.es/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -29,14 +29,11 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: MSc. in Advanced Computer Science
+      institution: University of Newcastle upon Tyne
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
+    - course: BSc in Computer Science
+      institution: University of Duhok
       year: 2008
 
 # Social/Academic Networking
