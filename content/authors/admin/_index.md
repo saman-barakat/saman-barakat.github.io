@@ -21,13 +21,17 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-Research Profile:
+interests:
+
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/SamanAlias
     label: Follow me on Twitter
-  - Computational Linguistics
-  - Information Retrieval
+    display:
+      header: true
 
 # Education to show in About widget
 education:
