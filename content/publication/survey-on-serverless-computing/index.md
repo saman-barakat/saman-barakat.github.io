@@ -26,12 +26,12 @@ draft: false
 featured: false
 tags:
   - Source Themes
-slides: example
+slides: ""
 image:
   filename: ""
   focal_point: ""
   preview_only: false
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+  caption: ""
 summary: ""
 date: 2022-10-13T09:38:40.467Z
 ---
