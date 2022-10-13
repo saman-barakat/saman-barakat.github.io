@@ -7,7 +7,7 @@ authors:
   - Saman A. Barakat
   - Qusay I. Sarhan
 doi: https://doi.org/10.1186/s13677-021-00253-7
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Journal of Cloud Computing, 1*(1)"
 abstract: Serverless computing has gained importance over the last decade as an
   exciting new field, owing to its large influence in reducing costs, decreasing
   latency, improving scalability, and eliminating server-side management, to
