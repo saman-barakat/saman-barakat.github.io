@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: Survey on serverless computing
 subtitle: ''
 summary: ''
@@ -30,8 +28,23 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2022-10-13T08:36:13.404099Z'
-publication_types:
-- '2'
+publication_types: ["2"]
 abstract: ''
 publication: '*Journal of Cloud Computing*'
+
+tags:
+- Source Themes
+featured: false
+
+# links:
+# - name: ""
+#   url: ""
+url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
 ---
