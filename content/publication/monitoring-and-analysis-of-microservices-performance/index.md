@@ -25,6 +25,10 @@ abstract: |-
   tools have been used to analyze the application
 draft: false
 featured: false
+tags:
+  - journal
+categories:
+  - publications
 image:
   filename: ""
   focal_point: Smart
