@@ -3,7 +3,7 @@ title: Design and Implementation of RESTful Non-repudiation Services
 publication_types:
   - "2"
 authors:
-  - SamanBarakat
+  - Saman Barakat
 doi: https://www.researchgate.net/profile/Saman-Barakat/publication/305167757_Design_and_Implementation_of_RESTful_Non-repudiation_Services/links/5b32084f4585150d23d4930c/Design-and-Implementation-of-RESTful-Non-repudiation-Services.pdf
 publication: "*Journal of Information and Computing Science*,Vol. 8, No. 3"
 abstract: >-
