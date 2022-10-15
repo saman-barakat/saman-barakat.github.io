@@ -5,7 +5,7 @@ publication_types:
 authors:
   - Saman A Barakat
   - Qusay I Sarhan
-doi: ""
+doi: 10.15649/2346075X.467
 publication: "*Journal of Information and Computing Science*,Vol. 8, No. 3"
 abstract: "Introduction: Lists are used in various software applications
   including web applications, desktop applications, and Internet of Things (IoT)
