@@ -25,6 +25,8 @@ abstract: >-
   dependencies in both, servers and clients. Preliminary results show the effectiveness of the approach in accelerating the development of APIs while making them potentially more reliable.
 draft: false
 featured: false
+categories:
+  - publications
 image:
   filename: ""
   focal_point: Smart
