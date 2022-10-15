@@ -5,6 +5,7 @@ publication_types:
 authors:
   - Saman Barakat
 doi: ""
+link: "https://electroinf.uoradea.ro/images/articles/CERCETARE/Reviste/JCSCS/JCSC_V10_N1_may2017/JCSCS%20Vol%2010%20No%201%20May%202017%20Saman.pdf"
 publication: "*Journal of Computer Science and Control Systems, 10* (1)"
 publication_short: JCSCS
 abstract: Monolithic applications have some drawbacks and issues. In particular,
