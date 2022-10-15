@@ -28,6 +28,10 @@ abstract: "Introduction: Lists are used in various software applications
   Iterator when the list size was large."
 draft: false
 featured: false
+links:
+ - name: "Link"
+   url: "https://revistas.udes.edu.co/innovaciencia/article/view/1855"
+url_pdf: "https://revistas.udes.edu.co/innovaciencia/article/view/1855/2021"
 image:
   filename: ""
   focal_point: Smart

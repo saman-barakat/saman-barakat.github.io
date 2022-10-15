@@ -24,6 +24,9 @@ abstract: Serverless computing has gained importance over the last decade as an
   implementation and usage.
 draft: false
 featured: false
+links:
+ - name: "Link"
+   url: "https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-021-00253-7"
 image:
   filename: ""
   focal_point: Smart

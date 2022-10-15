@@ -22,5 +22,10 @@ image:
   filename: ""
   focal_point: Smart
   preview_only: false
+DOI: "https://doi.org/10.26682/sjuod.2020.23.1.14"
+links:
+ - name: "Link"
+   url: "http://journal.uod.ac/index.php/uodjournal/article/view/732"
+url_pdf: "https://journal.uod.ac/index.php/uodjournal/article/view/732/560"
 date: 2020-10-14T11:10:07.094Z
 ---

@@ -18,6 +18,10 @@ abstract: >-
   role to achieve successful electronic businesses. One solution used to achieve fair non-repudiation services is by using a trusted third party (TTP) that implements fair non-repudiation protocols. This project uses work that has been done by Cook et al in 2006 as a starting point, which was a non-repudiation service project that uses SOAP web service technology. However, this project aims to implement non-repudiation services using Representational State Transfer (REST) architecture style principles in order to obtain significant advantages that REST technology provides such as scalability and simplicity. 
 draft: false
 featured: false
+links:
+ - name: "Link"
+   url: "http://www.worldacademicunion.com/journal/1746-7659JIC/online.htm"
+url_pdf: "http://www.worldacademicunion.com/journal/1746-7659JIC/jicvol8no3paper03.pdf"
 image:
   filename: ""
   focal_point: Smart

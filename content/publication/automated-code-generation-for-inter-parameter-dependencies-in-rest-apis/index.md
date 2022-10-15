@@ -8,6 +8,10 @@ authors:
   - Ana Belen Sanchez
   - Sergio Segura
 doi: ""
+links:
+ - name: "Link"
+   url: "http://biblioteca.sistedes.es/articulo/automated-code-generation-for-inter-parameter-dependencies-in-rest-apis/"
+url_pdf: "http://biblioteca.sistedes.es/submissions/descargas/2022/JCIS/2022-JCIS-027.pdf"
 publication: SISTEDES
 publication_short: JCIS
 abstract: >-

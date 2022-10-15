@@ -23,6 +23,10 @@ tags:
   - journal
 categories:
   - publications
+links:
+ - name: "Link"
+   url: "https://electroinf.uoradea.ro/index.php/jcscs/12-cercetare/reviste/jcscs/195-1st-issue-vol-10-nr-1.html"
+url_pdf: "https://electroinf.uoradea.ro/images/articles/CERCETARE/Reviste/JCSCS/JCSC_V10_N1_may2017/JCSCS%20Vol%2010%20No%201%20May%202017%20Saman.pdf"
 image:
   filename: ""
   focal_point: Smart
