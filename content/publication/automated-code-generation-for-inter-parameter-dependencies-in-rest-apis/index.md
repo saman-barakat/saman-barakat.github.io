@@ -7,7 +7,7 @@ authors:
   - Enrique Barba Roque
   - Ana Belen Sanchez
   - Sergio Segura
-doi: https://biblioteca.sistedes.es/submissions/descargas/2022/JCIS/2022-JCIS-027.pdf
+doi: https://biblioteca.sistedes.es/articulo/automated-code-generation-for-inter-parameter-dependencies-in-rest-apis/
 publication: SISTEDES
 publication_short: JCIS
 abstract: >-
