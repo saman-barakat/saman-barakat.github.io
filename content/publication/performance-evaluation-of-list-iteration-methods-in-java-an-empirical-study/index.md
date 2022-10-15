@@ -6,7 +6,7 @@ authors:
   - Saman A Barakat
   - Qusay I Sarhan
 doi: 10.15649/2346075X.467
-publication: "*Journal of Information and Computing Science*,Vol. 8, No. 3"
+publication: "*INNOVACIENCIA*,Vol. 6, No. 1"
 abstract: "Introduction: Lists are used in various software applications
   including web applications, desktop applications, and Internet of Things (IoT)
   applications to store different types of items (e.g. country name, product
