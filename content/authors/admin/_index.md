@@ -10,7 +10,7 @@ last_name: Barakat
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,9 +22,9 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Parameter Dependencies
+  - REST APIs
+  - Software Engineering
 label: Follow me on Twitter
 
 # Education to show in About widget
@@ -53,7 +53,7 @@ social:
       header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=9MXMdYMAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/saman-barakat
