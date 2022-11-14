@@ -7,6 +7,7 @@ tags:
   - IDLReasoner
 links:
   - url: https://github.com/isa-group/IDLReasonerChoco
+    name: IDLReasoner
 image:
   filename: ""
   focal_point: Smart
