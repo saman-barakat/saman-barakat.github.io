@@ -4,9 +4,11 @@ date: 2022-11-14T21:30:35.188Z
 draft: false
 featured: false
 tags:
-  - idl
+  - IDL
 links:
   - url: https://github.com/isa-group/IDL
+    name: IDL
+    icon_pack: null
 image:
   filename: null
   focal_point: Smart
