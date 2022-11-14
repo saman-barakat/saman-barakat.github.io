@@ -29,7 +29,7 @@ content:
   phone: 
   address:
     street:  
-    city: Seville
+    city: Seville, Spain
     region: 
     postcode:
     country: Spain
