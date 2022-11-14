@@ -13,4 +13,4 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-IDLReasoner, a Java tool for the automated analysis of IDL specifications using constraint programming.
+A Java tool for the automated analysis of IDL specifications using constraint programming.
