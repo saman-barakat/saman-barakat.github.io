@@ -1,5 +1,5 @@
 ---
-title: "he IDL Tool Suite: Inter-Parameter Dependency Management in Web APIs"
+title: "The IDL Tool Suite: Inter-Parameter Dependency Management in Web APIs"
 publication_types:
   - "0"
 authors:
