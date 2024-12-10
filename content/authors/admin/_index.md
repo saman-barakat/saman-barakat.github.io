@@ -43,8 +43,11 @@ highlight_name: true
 first_name: Saman
 email: ""
 ---
+<!--StartFragment-->
 
-I am a PhD student at the University of Seville. My PhD research is on automated analysis of inter-parameter dependencies in web APIs and Its Applications.
+I am a predoctoral researcher at the **SCORE Lab, University of Seville**, with an **MSc in Advanced Computer Science** from **Newcastle Upon Tyne University, UK**. My PhD research focuses on **inter-parameter dependencies in web APIs**, with a commitment to extending and enhancing the **IDL Tool Suite**. I apply these tools in various applications, including automated code generation and API gateways.
+
+<!--EndFragment-->
 
 <br />
 <br />
