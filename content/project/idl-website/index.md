@@ -6,7 +6,7 @@ featured: false
 tags:
   - IDLWebsite
 links:
-  - url: https://saman-barakat.github.io/IDLWebsite/
+  - url: http://idl.us.es
     name: IDLWebsite
 image:
   filename: ""
