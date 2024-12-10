@@ -11,6 +11,10 @@ appearance:
   font: minimal
   font_size: L
 
+# Param
+params:
+  google_analytics: ""  # Leave it blank to disable Google Analytics
+
 # SEO
 marketing:
   seo:
