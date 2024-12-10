@@ -7,7 +7,7 @@ authors:
   - Alberto Martin-Lopez
   - Carlos Müller
   - Sergio Segura
-publication: ICSOC 2023 (Demos)
+publication: ICSOC 2023 (Demo)
 draft: false
 featured: false
 image:
