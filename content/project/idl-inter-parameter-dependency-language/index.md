@@ -3,7 +3,8 @@ title: "IDL: Inter-parameter Dependency Language"
 date: 2022-11-14T21:30:35.188Z
 draft: false
 featured: false
-tags: []
+tags:
+  - IDL
 external_link: http://idl.us.es
 links:
   - url: http://idl.us.es
