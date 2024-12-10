@@ -1,7 +1,6 @@
 ---
 title: Toward Dependency-Aware API Gateways
 publication_types:
-  - "0"
   - "1"
 authors:
   - Saman Barakat
