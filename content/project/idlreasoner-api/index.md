@@ -3,6 +3,8 @@ title: IDLReasoner API
 date: 2024-12-10T17:49:04.889Z
 draft: false
 featured: false
+tags:
+  - IDLReasonerAPI
 external_link: https://github.com/saman-barakat/IDLReasonerAPI
 image:
   filename: ""
