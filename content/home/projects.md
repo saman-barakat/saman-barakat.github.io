@@ -1,5 +1,5 @@
 ---
-widget: collection
+widget: portfilo
 widget_id: RECENT-PROJECTS
 headless: true
 weight: 65
@@ -18,7 +18,7 @@ content:
     - name: IDLWebsite
       tag: idlwebsite
 design:
-  columns: "2"
+  columns: "1"
   view: showcase
   flip_alt_rows: false
 ---
