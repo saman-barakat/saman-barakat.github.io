@@ -14,7 +14,7 @@ publication: SoftwareX
 draft: false
 featured: false
 image:
-  filename: null
+  filename: x23527110.jpg
   focal_point: Smart
   preview_only: false
 date: 2024-12-10T14:23:27.705Z
