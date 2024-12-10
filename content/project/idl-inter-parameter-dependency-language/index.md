@@ -5,12 +5,13 @@ draft: false
 featured: false
 tags:
   - IDL
+external_link: ""
 links:
-  - url: https://github.com/isa-group/IDL
+  - url: http://idl.us.es
     name: IDL
     icon_pack: null
 image:
-  filename: null
+  filename: idllogo.png
   focal_point: Smart
   preview_only: false
 ---
