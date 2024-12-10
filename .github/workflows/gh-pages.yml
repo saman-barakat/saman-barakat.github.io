@@ -3,8 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
+      - main  # Deploy on push to the main branch
+  pull_request:  # Optional: Build on pull requests for testing
 
 jobs:
   deploy:
@@ -14,26 +14,34 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true  # Fetch Git submodules if applicable
+          fetch-depth: 0    # Fetch full history for .GitInfo and .Lastmod
 
+      # Step 2: Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          extended: true
+          hugo-version: 'latest'  # Use the latest Hugo version
+          extended: true          # Enable Hugo extended version for SCSS processing
 
-      - name: Build
+      # Step 3: Update Hugo Modules
+      - name: Update Hugo Modules
+        run: |
+          hugo mod get -u ./...
+          hugo mod tidy
+          hugo mod clean
+
+      # Step 4: Build the Hugo site
+      - name: Build Hugo Site
         run: hugo --minify
 
-      - name: Deploy
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main, 
-        # also change the `main` in `refs/heads/main` 
-        # below accordingly.
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./public  # Directory to publish to GitHub Pages
