@@ -1,5 +1,5 @@
 ---
-widget: portfolio
+widget: collection
 widget_id: RECENT-PPROJECTS
 headless: true
 weight: 65
