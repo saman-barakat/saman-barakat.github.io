@@ -5,6 +5,7 @@ draft: false
 featured: false
 tags:
   - IDLWebsite
+external_link: http://idl.us.es
 links:
   - url: http://idl.us.es
     name: IDLWebsite
