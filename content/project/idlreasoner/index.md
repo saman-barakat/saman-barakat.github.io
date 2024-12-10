@@ -3,7 +3,8 @@ title: IDLReasoner
 date: 2022-11-14T21:35:11.207Z
 draft: false
 featured: false
-tags: []
+tags:
+  - IDLReasoner
 external_link: https://github.com/isa-group/IDLReasonerChoco
 links:
   - url: https://github.com/isa-group/IDLReasonerChoco
