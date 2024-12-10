@@ -31,8 +31,8 @@ abstract: The generation of code templates from web API specifications is a
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: ""
   focal_point: Smart
   preview_only: false
-date: 2023-05-29T20:42:01.279Z
+date: 2022-05-29T20:42:00.000Z
 ---
