@@ -12,3 +12,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+<!--StartFragment-->
+
+IDLGen is an extension of the OpenAPI Generator designed to produce validation code for inter-parameter dependencies in Java and Python servers.
+
+<!--EndFragment-->
