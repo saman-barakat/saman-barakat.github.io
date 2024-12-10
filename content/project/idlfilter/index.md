@@ -5,7 +5,10 @@ draft: false
 featured: false
 tags:
   - IDLFilter
-external_link: https://github.com/saman-barakat/IDLGateway
+external_link: ""
+links:
+  - name: IDLFilter
+    url: https://github.com/saman-barakat/IDLGateway
 image:
   filename: featured
   focal_point: Smart
