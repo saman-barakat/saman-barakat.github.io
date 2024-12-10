@@ -1,5 +1,5 @@
 ---
-widget: portfilo
+widget: portfolio
 widget_id: RECENT-PROJECTS
 headless: true
 weight: 65
