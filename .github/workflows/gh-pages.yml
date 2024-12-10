@@ -3,8 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - main  # Deploy on push to the main branch
-  pull_request:  # Optional: Build on pull requests for testing
+      - main  # Set a branch name to trigger deployment
+  pull_request:
 
 jobs:
   deploy:
@@ -15,33 +15,27 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       # Step 1: Checkout the repository
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Git submodules if applicable
-          fetch-depth: 0    # Fetch full history for .GitInfo and .Lastmod
+          submodules: true  # Fetch any Git submodules (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      # Step 2: Setup Hugo
+      # Step 2: Setup Hugo with a specific version
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'  # Use the latest Hugo version
-          extended: true          # Enable Hugo extended version for SCSS processing
+          hugo-version: '0.97.3'  # Specify the desired version
+          extended: true          # Enable the extended version for SCSS processing
 
-      # Step 3: Update Hugo Modules
-      - name: Update Hugo Modules
-        run: |
-          hugo mod get -u ./...
-          hugo mod tidy
-          hugo mod clean
-
-      # Step 4: Build the Hugo site
-      - name: Build Hugo Site
+      # Step 3: Build the Hugo site
+      - name: Build
         run: hugo --minify
 
-      # Step 5: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
+      # Step 4: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        # Ensure deployment happens only on the main branch
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public  # Directory to publish to GitHub Pages
+          publish_dir: ./public
