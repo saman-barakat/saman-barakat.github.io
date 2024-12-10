@@ -2,7 +2,6 @@
 title: "The IDL tool suite: Specifying and analyzing inter-parameter
   dependencies in web APIs"
 publication_types:
-  - "0"
   - "2"
 authors:
   - Saman Barakat
