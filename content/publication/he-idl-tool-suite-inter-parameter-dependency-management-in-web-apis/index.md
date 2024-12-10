@@ -1,12 +1,13 @@
 ---
 title: "The IDL Tool Suite: Inter-Parameter Dependency Management in Web APIs"
 publication_types:
-  - "0"
+  - "1"
 authors:
   - Saman Barakat
   - Alberto Martin-Lopez
   - Carlos Müller
   - Sergio Segura
+publication: ICSOC 2023 (Demos)
 draft: false
 featured: false
 image:
