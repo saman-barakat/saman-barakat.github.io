@@ -2,12 +2,13 @@
 title: "IDLGen: Automated Code Generation for Inter-parameter Dependencies in
   Web APIs"
 publication_types:
-  - "0"
+  - "1"
 authors:
   - Saman Barakat
   - Ana Belén Sánchez
   - Sergio Segura
 doi: https://doi.org/10.1007/978-3-031-48421-6_11
+publication_short: ICSOC2023
 draft: false
 featured: false
 image:
