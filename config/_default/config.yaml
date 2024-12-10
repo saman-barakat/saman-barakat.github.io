@@ -29,7 +29,7 @@ module:
 ############################
 ## ADVANCED
 ############################
-google_analytics: ""
+#google_analytics: ""
 enableGitInfo: false
 summaryLength: 30
 pagerSize: 10
