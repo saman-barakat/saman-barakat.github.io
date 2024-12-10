@@ -9,7 +9,7 @@ authors:
   - Sergio Segura
 doi: https://doi.org/10.1007/978-3-031-48421-6_11
 publication: ""
-publication_short: ICSOC 2023
+publication_short: ICSOC
 draft: false
 featured: false
 image:
