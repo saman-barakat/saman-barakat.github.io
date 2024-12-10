@@ -13,3 +13,8 @@ image:
   focal_point: Smart
   preview_only: false
 ---
+<!--StartFragment-->
+
+The IDL website is dedicated to managing inter-parameter dependency projects. 
+
+<!--EndFragment-->
