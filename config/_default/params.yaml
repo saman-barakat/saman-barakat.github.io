@@ -10,9 +10,13 @@ appearance:
   theme_night: minimal
   font: minimal
   font_size: L
+#Param  
+params:
+  google_analytics: ""
+pagination:
+  pagerSize: 10
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
