@@ -10,7 +10,7 @@ links:
   - name: IDLFilter
     url: https://github.com/saman-barakat/IDLGateway
 image:
-  filename: featured
+  filename: ""
   focal_point: Smart
   preview_only: false
 ---
