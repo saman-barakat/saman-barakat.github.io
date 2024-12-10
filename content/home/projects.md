@@ -1,6 +1,6 @@
 ---
-widget: collection
-widget_id: RECENT-PPROJECTS
+widget: Portfilo
+widget_id: RECENT-PROJECTS
 headless: true
 weight: 65
 title: Projects
