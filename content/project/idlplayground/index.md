@@ -3,8 +3,7 @@ title: IDLPlayground
 date: 2024-12-10T17:51:07.583Z
 draft: false
 featured: false
-tags:
-  - IDLPlayground
+tags: []
 external_link: https://github.com/saman-barakat/IDLPlayground
 links:
   - name: IDLPlayground
