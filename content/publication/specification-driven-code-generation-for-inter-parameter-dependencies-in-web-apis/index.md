@@ -11,7 +11,7 @@ authors:
 doi: 10.1007/978-3-031-26507-5_21
 publication: "International Conference on Service-Oriented Computing  ICSOC
   2022: Service-Oriented Computing – ICSOC 2022 Workshops"
-publication_short: ICSOC 2022 Workshops
+publication_short: WESOACS
 abstract: The generation of code templates from web API specifications is a
   common practice in the software industry. However, existing tools neglect the
   dependencies among input parameters (so called inter-parameter dependencies),
