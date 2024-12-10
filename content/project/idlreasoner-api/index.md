@@ -6,6 +6,9 @@ featured: false
 tags:
   - IDLReasonerAPI
 external_link: https://github.com/saman-barakat/IDLReasonerAPI
+links:
+  - name: IDLReasoner API
+    url: https://github.com/saman-barakat/IDLReasonerAPI
 image:
   filename: ""
   focal_point: Smart
