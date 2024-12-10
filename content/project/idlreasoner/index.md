@@ -5,6 +5,7 @@ draft: false
 featured: false
 tags:
   - IDLReasoner
+external_link: https://github.com/isa-group/IDLReasonerChoco
 links:
   - url: https://github.com/isa-group/IDLReasonerChoco
     name: IDLReasoner
