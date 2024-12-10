@@ -5,7 +5,7 @@ draft: false
 featured: false
 tags:
   - IDLPlayground
-external_link: https://github.com/saman-barakat/IDLPlayground
+external_link: ""
 links:
   - name: IDLPlayground
     url: https://github.com/saman-barakat/IDLPlayground
