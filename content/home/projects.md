@@ -18,7 +18,7 @@ content:
     - name: IDLWebsite
       tag: idlwebsite
 design:
-  columns: "0"
+  columns: "2"
   view: showcase
   flip_alt_rows: false
 ---
