@@ -3,8 +3,7 @@ title: IDLFilter
 date: 2024-12-10T17:52:08.230Z
 draft: false
 featured: false
-tags:
-  - IDLFilter
+tags: []
 external_link: https://github.com/saman-barakat/IDLGateway
 links:
   - name: IDLFilter
