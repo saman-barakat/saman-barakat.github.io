@@ -11,7 +11,7 @@ links:
     name: IDL
     icon_pack: null
 image:
-  filename: idllogo.png
+  filename: ""
   focal_point: Smart
   preview_only: false
 ---
