@@ -6,6 +6,9 @@ featured: false
 tags:
   - IDLPlayground
 external_link: https://github.com/saman-barakat/IDLPlayground
+links:
+  - name: IDLPlayground
+    url: https://github.com/saman-barakat/IDLPlayground
 image:
   filename: ""
   focal_point: Smart
