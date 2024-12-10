@@ -8,6 +8,7 @@ authors:
   - Ana Belén Sánchez
   - Sergio Segura
 doi: https://doi.org/10.1007/978-3-031-48421-6_11
+publication: ICSOC2023
 publication_short: ICSOC2023
 draft: false
 featured: false
