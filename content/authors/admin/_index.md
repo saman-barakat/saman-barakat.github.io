@@ -1,5 +1,5 @@
 ---
-title: Saman A. Barakat
+title: Saman Barakat
 role: PhD Student
 avatar_filename: samanbarakat.png
 bio: null
