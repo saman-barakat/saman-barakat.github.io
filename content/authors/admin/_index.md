@@ -45,7 +45,7 @@ email: ""
 ---
 <!--StartFragment-->
 
-I am a predoctoral researcher at the **SCORE Lab, University of Seville**, with an **MSc in Advanced Computer Science** from **Newcastle Upon Tyne University, UK**. My PhD research focuses on **inter-parameter dependencies in web APIs**, with a commitment to extending and enhancing the **IDL Tool Suite**. I apply these tools in various applications, including automated code generation and API gateways.
+I am a Ph.D. student and predoctoral researcher at the SCORE Lab, University of Seville. I hold an MSc in Advanced Computer Science from Newcastle University, UK. My research focuses on **inter-parameter dependencies in web APIs**, aiming to extend and enhance the [IDL Tool Suite](http://idl.us.es). My work covers a variety of applications, such as **automated code generation** and **API gateways**, which contribute to innovative web API development and integration solutions.
 
 <!--EndFragment-->
 
