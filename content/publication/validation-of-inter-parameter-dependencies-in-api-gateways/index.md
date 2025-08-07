@@ -10,7 +10,7 @@ publication: Computer Standards & Interfaces
 draft: false
 featured: false
 image:
-  filename: featured
+  filename: ""
   focal_point: Smart
   preview_only: false
 date: 2025-08-07T10:58:51.937Z
