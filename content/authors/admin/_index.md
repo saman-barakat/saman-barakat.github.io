@@ -58,6 +58,5 @@ My current research interest lies in the application of Large Language Models fo
 
 <br />
 <br />
-<br />
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
