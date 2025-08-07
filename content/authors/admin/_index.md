@@ -20,13 +20,13 @@ social:
       header: true
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=9MXMdYMAAAAJ&hl=en
+    link: https://scholar.google.com/citations?user=TQg9qNEAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/saman-barakat
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/saman-barakat-09b1901b4/
+    link: https://www.linkedin.com/in/saman-barakat
 organizations:
   - name: University of Seville
     url: https://www.us.es/
