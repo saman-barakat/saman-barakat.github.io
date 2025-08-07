@@ -4,7 +4,9 @@ role: PhD Student
 avatar_filename: samanbarakat.png
 bio: null
 interests:
-  - REST APIs
+  - Large Language Models (LLMs)
+  - LLM4MSR
+  - Mining Software Repositories
   - Software Engineering
 social:
   - icon: envelope
