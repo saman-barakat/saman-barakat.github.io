@@ -1,10 +1,10 @@
 ---
 title: Saman Barakat
-role: PhD Student
+role: Ph.D. in Software Engineering
 avatar_filename: samanbarakat.png
 bio: null
 interests:
-  - Large Language Models (LLMs)
+  - LLMs Applications
   - LLM4MSR
   - Mining Software Repositories
   - Software Engineering
