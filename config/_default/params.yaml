@@ -45,6 +45,7 @@ header:
 # Site footer
 
 footer:
+  powered_by: false
   copyright:
     notice: ''
     license:
