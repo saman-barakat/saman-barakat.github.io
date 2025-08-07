@@ -37,5 +37,5 @@ jobs:
         # Ensure deployment happens only on the main branch
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
