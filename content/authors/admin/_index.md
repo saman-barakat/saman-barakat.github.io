@@ -45,7 +45,11 @@ email: ""
 ---
 <!--StartFragment-->
 
-I am a Ph.D. student and predoctoral researcher at the SCORE Lab, University of Seville. I hold an MSc in Advanced Computer Science from Newcastle University, UK. My research focuses on **inter-parameter dependencies in web APIs**, aiming to extend and enhance the [IDL Tool Suite](http://idl.us.es). My work covers a variety of applications, such as **automated code generation** and **API gateways**, which contribute to innovative web API development and integration solutions.
+My name is Saman Barakat, and I have recently completed a Ph.D. in Software Engineering at the University of Seville. My doctoral research focused on automated support for managing inter-parameter dependencies in web APIs.
+
+<br />
+
+My current research interest lies in the application of Large Language Models for Mining Software Repositories (LLM4MSR). I am particularly interested in how LLMs can be used to analyze and generate software-related information, enabling new ways to understand, maintain, and automate software systems. I am eager to explore this area further and contribute to ongoing research at the intersection of language models and software engineering.
 
 <!--EndFragment-->
 
