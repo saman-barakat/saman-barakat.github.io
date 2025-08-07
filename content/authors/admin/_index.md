@@ -46,7 +46,7 @@ last_name: Barakat
 label: Follow me on Twitter
 highlight_name: true
 first_name: Saman
-email: saman.barakat@gmail.com
+email: ""
 ---
 <!--StartFragment-->
 
