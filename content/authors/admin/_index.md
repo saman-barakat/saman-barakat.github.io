@@ -30,6 +30,9 @@ organizations:
     url: https://www.us.es/
 education:
   courses:
+    - course: Ph.D. in Software Engineering
+      institution: University of Seville
+      year: 2025
     - course: MSc. in Advanced Computer Science
       institution: University of Newcastle upon Tyne
       year: 2012
@@ -41,13 +44,11 @@ last_name: Barakat
 label: Follow me on Twitter
 highlight_name: true
 first_name: Saman
-email: ""
+email: saman.barakat@gmail.com
 ---
 <!--StartFragment-->
 
 My name is Saman Barakat, and I have recently completed a Ph.D. in Software Engineering at the University of Seville. My doctoral research focused on automated support for managing inter-parameter dependencies in web APIs.
-
-<br />
 
 My current research interest lies in the application of Large Language Models for Mining Software Repositories (LLM4MSR). I am particularly interested in how LLMs can be used to analyze and generate software-related information, enabling new ways to understand, maintain, and automate software systems. I am eager to explore this area further and contribute to ongoing research at the intersection of language models and software engineering.
 
