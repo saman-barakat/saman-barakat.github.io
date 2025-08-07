@@ -1,41 +1,71 @@
-name: Deploy GitHub Pages
+name: Deploy website to GitHub Pages
+
+env:
+  WC_HUGO_VERSION: '0.97.3'  # Or update to latest Hugo version you want
 
 on:
   push:
-    branches:
-      - main  # Set a branch name to trigger deployment
-  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build:
+    runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repository
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
 
-      # Step 2: Setup Hugo with a specific version
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.97.3'  # Specify the desired version
-          extended: true          # Enable the extended version for SCSS processing
+          hugo-version: ${{ env.WC_HUGO_VERSION }}
+          extended: true
 
-      # Step 3: Build the Hugo site
-      - name: Build
-        run: hugo --minify
-
-      # Step 4: Deploy to GitHub Pages
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        # Ensure deployment happens only on the main branch
-        if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
         with:
-          github_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: ./public
+          path: /tmp/hugo_cache_runner/
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Optional: Generate search index with pagefind (remove if not used)
+      - name: Generate Pagefind search index
+        run: npx pagefind --source "public"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
